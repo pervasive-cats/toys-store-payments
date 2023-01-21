@@ -1,4 +1,4 @@
-# toys-store-bc-template
+# toys-store-payments
 
 [![Build status](https://github.com/pervasive-cats/toys-store-bc-template/actions/workflows/release.yml/badge.svg)](https://github.com/pervasive-cats/toys-store-bc-template/actions/workflows/release.yml)
 [![semantic-release: conventional-commits](https://img.shields.io/badge/semantic--release-conventional_commits-e10098?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
