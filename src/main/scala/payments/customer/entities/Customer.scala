@@ -15,6 +15,4 @@ trait Customer {
   val email: Email
 
   val paymentCard: PaymentCard
-
-  def updated(email: Email, paymentCard: PaymentCard): Customer
 }

@@ -13,7 +13,7 @@ import payments.customer.valueobjects.Email
 
 trait Repository {
 
-  def findByEmail(email: Email, paymentCard: PaymentCard): Customer
+  def findByEmail(email: Email): Customer
 
   def register(customer: Customer): Unit
 
