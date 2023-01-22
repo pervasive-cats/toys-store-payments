@@ -1,9 +1,16 @@
+/*
+ * Copyright © 2022-2023 by Pervasive Cats S.r.l.s.
+ *
+ * All Rights Reserved.
+ */
+
 package io.github.pervasivecats
 package payments.customer.valueobjects
 
 import eu.timepit.refined.api.RefType.applyRef
 import eu.timepit.refined.api.Refined
 import eu.timepit.refined.string.MatchesRegex
+
 import payments.{Validated, ValidationError}
 
 type EmailString = String Refined
