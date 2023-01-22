@@ -5,9 +5,9 @@
  */
 
 package io.github.pervasivecats
-package payments.customer.valueobjects.card
+package payments.customer.valueobjects.paymentcard
 
-trait CardNumber {
+trait CardHolder {
 
-  val cardNumber: String
+  val cardHolder: String
 }

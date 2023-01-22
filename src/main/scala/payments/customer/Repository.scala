@@ -7,7 +7,7 @@
 package io.github.pervasivecats
 package payments.customer
 
-import payments.customer.valueobjects.card.PaymentCard
+import payments.customer.valueobjects.paymentcard.PaymentCard
 import payments.customer.entities.Customer
 import payments.customer.valueobjects.Email
 

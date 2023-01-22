@@ -5,7 +5,7 @@
  */
 
 package io.github.pervasivecats
-package payments.customer.events
+package payments.customer.domainevents
 
 import payments.customer.valueobjects.Email
 

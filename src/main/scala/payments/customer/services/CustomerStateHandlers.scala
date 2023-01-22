@@ -7,7 +7,7 @@
 package io.github.pervasivecats
 package payments.customer.services
 
-import payments.customer.events.CustomerUnregistered
+import payments.customer.domainevents.CustomerUnregistered
 
 trait CustomerStateHandlers {
 

@@ -5,7 +5,7 @@
  */
 
 package io.github.pervasivecats
-package payments.customer.valueobjects.card
+package payments.customer.valueobjects.paymentcard
 
 trait PaymentCard {
 
