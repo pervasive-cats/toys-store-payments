@@ -1,12 +1,18 @@
+/*
+ * Copyright © 2022-2023 by Pervasive Cats S.r.l.s.
+ *
+ * All Rights Reserved.
+ */
+
 package io.github.pervasivecats
 package payments.payment
 
-import payments.payment.entities.Payment
+import java.time.LocalDateTime
 
 import io.github.pervasivecats.payments.customer.valueobjects.Email
 import io.github.pervasivecats.payments.purchase.entities.Purchase
 
-import java.time.LocalDateTime
+import payments.payment.entities.Payment
 
 trait Repository {
 
