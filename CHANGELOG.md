@@ -1,3 +1,19 @@
+# [1.0.0-beta.2](https://github.com/pervasive-cats/toys-store-payments/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2023-01-23)
+
+
+### Bug Fixes
+
+* imports ([49e4a1a](https://github.com/pervasive-cats/toys-store-payments/commit/49e4a1ac5874e927623ac64d280d6366f30c89e1))
+* modified timestamp in to localdatetime ([d52fbc6](https://github.com/pervasive-cats/toys-store-payments/commit/d52fbc63aad5ddd088ba72d1dd36470bce6f2087))
+
+
+### Features
+
+* add Purchase interface ([00d7d21](https://github.com/pervasive-cats/toys-store-payments/commit/00d7d2111bfa274e7b977a30f5a5b9a44f0e61f1))
+* add Repository interface ([52bbae7](https://github.com/pervasive-cats/toys-store-payments/commit/52bbae7d318783cc5581a3dad47988285b9ba507))
+* add type id ([5588c04](https://github.com/pervasive-cats/toys-store-payments/commit/5588c04e459b1a65ae700e371c7790ad33add3c1))
+* add valueobject interfaces ([4816ecd](https://github.com/pervasive-cats/toys-store-payments/commit/4816ecddaa30a6e9b3ecfe8674b7fca1e29ebdd5))
+
 # 1.0.0-beta.1 (2023-01-22)
 
 
