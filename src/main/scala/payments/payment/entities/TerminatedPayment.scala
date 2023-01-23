@@ -1,4 +1,4 @@
 package io.github.pervasivecats
 package payments.payment.entities
 
-trait SuccessfulPayment extends TerminatedPayment
+trait TerminatedPayment extends Payment
