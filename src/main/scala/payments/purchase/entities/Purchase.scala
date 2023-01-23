@@ -8,11 +8,10 @@ package io.github.pervasivecats
 package payments.purchase.entities
 
 import scala.language.postfixOps
-
-import jdk.jfr.Timestamp
-
 import payments.purchase.valueobjects.{CatalogItem, PurchaseId, Store}
 import payments.customer.entities.Customer
+
+import java.time.LocalDateTime
 
 trait Purchase {
 
@@ -24,5 +23,5 @@ trait Purchase {
 
   val customer: Customer
 
-  val timestamp: Timestamp
+  val timestamp: LocalDateTime
 }
