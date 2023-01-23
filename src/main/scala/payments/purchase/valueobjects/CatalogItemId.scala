@@ -1,7 +1,7 @@
 package io.github.pervasivecats
 package payments.purchase.valueobjects
 
-trait PurchaseId {
-  
+trait CatalogItemId {
+
   val value: Id
 }
