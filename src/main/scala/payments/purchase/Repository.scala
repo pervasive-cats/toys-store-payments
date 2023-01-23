@@ -7,11 +7,11 @@
 package io.github.pervasivecats
 package payments.purchase
 
+import java.time.LocalDateTime
+
 import payments.purchase.valueobjects.{PurchaseId, Store}
 import payments.customer.valueobjects.Email
 import payments.purchase.entities.Purchase
-
-import java.time.LocalDateTime
 
 trait Repository {
 
