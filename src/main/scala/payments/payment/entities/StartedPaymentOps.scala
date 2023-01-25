@@ -7,4 +7,9 @@
 package io.github.pervasivecats
 package payments.payment.entities
 
-trait StartedPayment
+trait StartedPaymentOps[A <: StartedPayment] {
+
+  def payWithSuccess(): SuccessfulPayment
+
+  def payWithFailure(): FailedPayment
+}
