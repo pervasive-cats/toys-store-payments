@@ -1,3 +1,19 @@
+# [1.0.0-beta.3](https://github.com/pervasive-cats/toys-store-payments/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2023-01-26)
+
+
+### Bug Fixes
+
+* fix errors in payment repository ([6ec6ad7](https://github.com/pervasive-cats/toys-store-payments/commit/6ec6ad731f85cba7b79562aaa5ed2030ac9cbfb8))
+* payment interface fix ([f259559](https://github.com/pervasive-cats/toys-store-payments/commit/f259559601e7d73eae655e3cc1be791d1927b042))
+
+
+### Features
+
+* add domain event interfaces ([fc70ee8](https://github.com/pervasive-cats/toys-store-payments/commit/fc70ee840f984960728b9dbb1cc9aaeb38b7adac))
+* add entities interface ([b46c53d](https://github.com/pervasive-cats/toys-store-payments/commit/b46c53d58d9a229c5c736660913bbeeab8429388))
+* add paymentId interface ([54cd90f](https://github.com/pervasive-cats/toys-store-payments/commit/54cd90f32189a6941171091e2217de0c8add8311))
+* add paymentterminationhandlers interface ([4cbe709](https://github.com/pervasive-cats/toys-store-payments/commit/4cbe7092f43867b38e878b0c9f4a6349ac841339))
+
 # [1.0.0-beta.2](https://github.com/pervasive-cats/toys-store-payments/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2023-01-23)
 
 
