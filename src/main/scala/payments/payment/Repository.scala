@@ -7,11 +7,12 @@
 package io.github.pervasivecats
 package payments.payment
 
-import java.time.LocalDateTime
-
 import payments.customer.valueobjects.Email
-import payments.payment.valueobjects.PaymentId
 import payments.payment.entities.Payment
+import payments.payment.valueobjects.PaymentId
+import payments.purchase.entities.Purchase
+
+import java.time.LocalDateTime
 
 trait Repository {
 
@@ -21,7 +22,7 @@ trait Repository {
 
   def findByDateRange(startDate: LocalDateTime, endDate: LocalDateTime): List[Payment]
 
-  def add(payment: Payment): Unit
+  def add(purchase: Purchase): Unit
 
-  def remove(payment: Payment): Unit
+  def remove(purchase: Purchase): Unit
 }
