@@ -1,3 +1,10 @@
+# [1.0.0-beta.4](https://github.com/pervasive-cats/toys-store-payments/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2023-04-23)
+
+
+### Bug Fixes
+
+* restore purchase as argument for repository methods ([55a496d](https://github.com/pervasive-cats/toys-store-payments/commit/55a496d8606ceb55fd5156ea1657777ab34974b9))
+
 # [1.0.0-beta.3](https://github.com/pervasive-cats/toys-store-payments/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2023-01-26)
 
 
