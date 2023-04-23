@@ -43,5 +43,5 @@ lazy val root = project
       )
     ),
     assembly / assemblyJarName := "main.jar",
-    assembly / mainClass := Some("io.github.pervasivecats.Main"),
+    assembly / mainClass := Some("io.github.pervasivecats.main"),
   )
