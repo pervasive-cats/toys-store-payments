@@ -30,7 +30,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Setup scala environment
-        uses: olafurpg/setup-scala@v13
+        uses: olafurpg/setup-scala@v14
         with:
           java-version: openjdk@1.17
       - name: Cache sbt
@@ -72,4 +72,4 @@ jobs:
         if: steps.publish.outputs.release == 1
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: target/scala-3.2.1/api
+          folder: target/scala-3.2.2/api
